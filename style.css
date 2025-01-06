@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.car{
+    background-color: #eceded;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #eceded;
+}
+
+.car:hover{
+    color: blue;
+}
+
+.form{
+border: 2px solid black; 
+height: 50px; 
+width: 300px; 
+border-radius: 5px; 
+transition: 0.4s;
+}
+
+.search{
+    border: 2px solid black; 
+    height: 50px; 
+    width: 620px; 
+    border-bottom-left-radius: 7px; 
+    border-top-left-radius: 7px; 
+    transition: 0.4s;
+    }
+
+.search:focus{
+    outline: 3px solid aquamarine;
+    border: none;
+}
+
+.btn-search{
+    margin-left: -8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.fw-bold{
+    bottom: 37px;
+    left: 25px;
+}
+
+.long a{ 
+    margin-top: 16px;
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.dr{
+    margin-left: -110px;
+}
+
+.cardParent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carddata{
+    border: 1px solid #ccd5d6;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.carddata img{
+    border-radius: 5px;
+}
+
+h2{
+    font-size: x-large;
+}
+
+.rs{
+    font-size: medium;
+}
+
+.text-muted{
+    font-size: 14px;
+}
+
+.col-md-4{
+    background-color: #f8faf9;
+}
+
